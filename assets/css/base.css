@@ -259,7 +259,7 @@ nav {
 
 .nav-menu__list {
   /* border: 1px yellow solid; */
-  column-gap: var(--mb-2);
+  column-gap: var(--mb-1-5);
 }
 
 .nav-link {
@@ -268,7 +268,7 @@ nav {
 }
 
 .nav-link a {
-  font-size: 0.98rem;
+  font-size: 0.93rem;
   color: var(--primary-blue);
   font-weight: 400;
   text-transform: uppercase;
@@ -276,7 +276,7 @@ nav {
 }
 
 .nav-link a:hover {
-  border-bottom: 2px var(--soft-white) solid;
+  border-bottom: 2px var(--primary-green) solid;
 }
 
 .nav-menu span {
@@ -554,7 +554,7 @@ footer {
     right: 0;
     width: 100vw;
     height: auto;
-    background-color: var(--light-blue);
+    background-color: var(--white);
     padding: var(--mb-3) 0;
     display: flex;
     justify-content: center;
