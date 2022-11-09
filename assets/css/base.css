@@ -242,6 +242,10 @@ nav {
 
 .nav-logo img {
   width: 130px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  object-fit: cover;
 }
 
 .nav-menu,
@@ -326,6 +330,22 @@ footer {
   font-family: var(--title-font);
   color: var(--primary-blue);
   text-align: left;
+}
+
+.f-header-logo {
+  flex: 0 0 auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f-header-logo img {
+  width: 130px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  object-fit: cover;
 }
 
 .f-header p {
