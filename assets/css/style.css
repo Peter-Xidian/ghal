@@ -3053,11 +3053,13 @@
 
   .cc-input input {
     text-align: center;
+    border-radius: unset;
   }
 
   .cc-textarea textarea {
     height: 3rem;
     text-align: center;
+    border-radius: unset;
   }
 
   .cc-content {
