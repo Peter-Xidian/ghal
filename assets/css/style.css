@@ -179,7 +179,7 @@
 
 .hp-cards {
   position: absolute;
-  top: -60%;
+  top: -65%;
   right: 10rem;
   flex: 0 0 auto;
   height: auto;
@@ -2114,8 +2114,8 @@
 
   .hp-cards {
     position: absolute;
-    top: -10%;
-    left: 50%;
+    top: -55%;
+    left: 42.5%;
     transform: translate(-50%, -50%);
     right: 10rem;
     width: auto;
