@@ -170,7 +170,7 @@ select {
 button {
   width: fit-content;
   height: auto;
-  padding: var(--mb-0-75) var(--mb-2-5);
+  padding: var(--mb-0-75) var(--mb-2);
   font-size: 1.1rem;
   font-weight: 500;
   font-family: var(--body-font);

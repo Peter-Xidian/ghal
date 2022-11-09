@@ -22,7 +22,7 @@
     />
 
     <!-- ===== AOS (Animate On Scroll) =====-->
-    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" /> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <!-- ===== FAVICON =====-->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
@@ -50,12 +50,12 @@
           </div>
 
           <ul class="nav-menu__list">
-            <li class="nav-link"><a href="">Home</a></li>
-            <li class="nav-link"><a href="">About</a></li>
-            <li class="nav-link"><a href="">Services</a></li>
-            <li class="nav-link"><a href="">Projects</a></li>
-            <li class="nav-link"><a href="">Media</a></li>
-            <li class="nav-link"><a href="">Contact Us</a></li>
+            <li class="nav-link"><a href="index.html">Home</a></li>
+            <li class="nav-link"><a href="about.html">About</a></li>
+            <li class="nav-link"><a href="services.html">Services</a></li>
+            <li class="nav-link"><a href="projects.html">Projects</a></li>
+            <li class="nav-link"><a href="gallery.html">Media</a></li>
+            <li class="nav-link"><a href="contact.html">Contact Us</a></li>
           </ul>
         </div>
 
@@ -72,9 +72,13 @@
     <section class="g-hero">
       <div class="gh-container">
         <div class="gh-content">
-          <span>Home / GHAL - Gallery</span>
-          <h3>Gallery</h3>
-          <p>
+          <span data-aos="fade-up" data-aos-duration="2000"
+            >Home / GHAL - Gallery</span
+          >
+          <h3 data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
+            Gallery
+          </h3>
+          <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
             Since commencing operations, we have been exposed to a broad variety
             of development schemes. We provide services in the following domains
           </p>
@@ -87,27 +91,42 @@
       <div class="gg-container">
         <div class="gg-carousel">
           <div class="gg-card">
-            <img src="" alt="" />
+            <img src="assets/img/gallery/gg-card-1.jpg" alt="" />
           </div>
         </div>
 
-        <span class="material-symbols-outlined"> navigate_next </span>
-        <span class="material-symbols-outlined"> navigate_before </span>
+        <span class="material-symbols-outlined md-36 gg-arrow gg-right">
+          navigate_next
+        </span>
+        <span class="material-symbols-outlined md-36 gg-arrow gg-left">
+          navigate_before
+        </span>
       </div>
     </section>
 
     <!-- ===== A-CTA SECTION =====-->
     <section class="a-cta">
       <div class="a-cta__container">
-        <h3>Global Hub Agribusiness' Commitment</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio earum
-          mollitia hic nihil consequatur obcaecati nisi quae, cum omnis ab
-          harum, est ipsa totam accusamus esse reiciendis autem iure
-          perspiciatis.
-        </p>
+        <div class="a-cta__text">
+          <h3 data-aos="fade-left" data-aos-duration="2000">
+            Global Hub Agribusiness' Commitment
+          </h3>
+          <p data-aos="fade-left" data-aos-duration="2000" data-aos-delay="300">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio earum
+            mollitia hic nihil consequatur obcaecati nisi quae, cum omnis ab
+            harum, est ipsa totam accusamus esse reiciendis autem iure
+            perspiciatis.
+          </p>
+        </div>
 
-        <button class="a-cta__btn">Contact Us</button>
+        <button
+          class="a-cta__btn"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+          data-aos-delay="400"
+        >
+          Contact Us
+        </button>
       </div>
     </section>
 
@@ -185,10 +204,10 @@
     </footer>
 
     <!-- ===== AOS (Animate On Scroll) =====-->
-    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
-    </script> -->
+    </script>
 
     <script src="assets/js/index.js"></script>
   </body>
