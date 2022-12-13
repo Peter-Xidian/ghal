@@ -113,7 +113,7 @@
 
 .hero-content p {
   width: 50%;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: var(--secondary-blue);
 }
 
@@ -999,7 +999,7 @@
 
 .at-card img {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
