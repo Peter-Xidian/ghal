@@ -1446,7 +1446,7 @@
   line-height: 22px;
 }
 
-/*========== P-HERO SECTION ==========*/
+/*========== P-PROJECTS SECTION ==========*/
 .p-projects,
 .pp-container {
   width: 100vw;
@@ -1604,6 +1604,137 @@
   font-weight: 300;
   text-align: left;
   line-height: 23px;
+}
+
+/*========== P-WORK SECTION ==========*/
+.p-work,
+.pw-container {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light-blue);
+  padding: var(--mb-8);
+  /* border: 1px tomato solid; */
+}
+
+.pw-container {
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  row-gap: var(--mb-8);
+  padding: 0;
+  border: 0;
+}
+
+.pw-title {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pw-title h2 {
+  font-size: 2rem;
+  font-family: var(--title-font);
+  color: var(--primary-blue);
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: var(--mb-1-5);
+}
+
+.pw-title h2 span {
+  width: 30px;
+  background-color: var(--primary-green);
+  height: 2px;
+}
+
+.pw-card {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  row-gap: var(--mb-2);
+  /* border: 2px orange solid; */
+}
+
+.pwc-header {
+  flex: 0 0 35%;
+  height: auto;
+  /* border: 1px dodgerblue solid; */
+  padding: 0;
+  /* padding-bottom: var(--mb-1); */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.pwc-header h3 {
+  width: 100%;
+  font-size: 1.5rem;
+  font-family: var(--title-font);
+  color: var(--primary-blue);
+  font-weight: 500;
+  line-height: 38px;
+}
+
+.pwc-content {
+  flex: 0 0 55%;
+  height: auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  row-gap: var(--mb-1);
+  padding-left: var(--mb-2);
+  border-left: 2px var(--primary-green) dotted;
+}
+
+.pwc-content p {
+  width: 100%;
+  font-size: 0.98rem;
+  font-family: var(--body-font);
+  color: var(--secondary-blue);
+  font-weight: 400;
+}
+
+.pwc-content ul {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  row-gap: var(--mb-0-75);
+  padding: 0;
+  margin: 0;
+}
+
+.pwc-content ul li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: var(--mb-0-5);
+  font-size: 0.98rem;
+  line-height: 21px;
+  font-family: var(--body-font);
+  color: var(--secondary-blue);
+  font-weight: 400;
+}
+
+.pwc-content ul li span {
+  color: var(--primary-green);
+  font-size: var(--fs-1);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< GALLERY PAGE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
@@ -2925,6 +3056,124 @@
     font-weight: 300;
     text-align: center;
     line-height: 23px;
+  }
+
+  /*========== P-WORK SECTION ==========*/
+  .p-work,
+  .pw-container {
+    padding: var(--mb-5) var(--mb-3);
+    /* border: 1px tomato solid; */
+  }
+
+  .pw-container {
+    justify-content: center;
+    row-gap: var(--mb-4);
+    padding: 0;
+    border: 0;
+  }
+
+  .pw-title {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    /* border: 1px tomato solid; */
+  }
+
+  .pw-title h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    align-items: flex-end;
+    column-gap: var(--mb-1);
+    line-height: 22px;
+  }
+
+  .pw-title h2 span {
+    width: 60px;
+    height: 1.8px;
+  }
+
+  .pw-title h2 span:first-child {
+    display: none;
+  }
+
+  .pw-card {
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: var(--mb-1-5);
+    margin-bottom: var(--mb-0-5);
+    /* border: 2px orange solid; */
+  }
+
+  .pw-card:last-child {
+    margin: 0;
+  }
+
+  .pwc-header {
+    flex: 0 0 auto;
+    width: 100%;
+    /* padding-bottom: var(--mb-1); */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .pwc-header h3 {
+    width: 100%;
+    font-size: 1.25rem;
+    line-height: 28px;
+  }
+
+  .pwc-content {
+    flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    padding-left: var(--mb-1);
+    border-left: 2px var(--primary-green) dotted;
+  }
+
+  .pwc-content p {
+    width: 100%;
+    font-size: 0.95rem;
+    font-family: var(--body-font);
+    color: var(--secondary-blue);
+    font-weight: 400;
+  }
+
+  .pwc-content ul {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    row-gap: var(--mb-0-75);
+    padding: 0;
+    margin: 0;
+  }
+
+  .pwc-content ul li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: var(--mb-0-75);
+    font-size: 0.98rem;
+    line-height: 21px;
+    font-family: var(--body-font);
+    color: var(--secondary-blue);
+    font-weight: 400;
+  }
+
+  .pwc-content ul li span {
+    color: var(--primary-green);
+    font-size: var(--fs-0-75);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< GALLERY PAGE >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
