@@ -171,6 +171,10 @@
   border: 2px var(--primary-green) solid;
 }
 
+.hp-btn a {
+  color: var(--primary-blue);
+}
+
 .hp-btn:hover {
   background-color: var(--light-green);
   /* color: var(--white); */
@@ -345,6 +349,11 @@
   font-size: var(--fs-1);
 }
 
+.hac-btn a {
+  color: var(--primary-blue);
+  font-size: var(--fs-1);
+}
+
 .hac-btn:hover {
   background-color: var(--light-green);
   /* color: var(--white); */
@@ -419,7 +428,7 @@
 }
 
 .hprc-2 {
-  background-image: url("/assets/img//grain-3.jpg");
+  background-image: url("/assets/img/grain-3.jpeg");
   background-color: var(--primary-green);
 }
 
@@ -429,12 +438,13 @@
 }
 
 .hprc-4 {
-  background-image: url("/assets/img/compound-feeding.jpg");
+  background-image: url("/assets/img/training-1.jpeg");
   background-color: var(--primary-green);
+  background-position: top center;
 }
 
 .hprc-5 {
-  background-image: url("/assets/img/farm-equipment.jpg");
+  background-image: url("/assets/img/machine-1.jpeg");
   background-color: var(--primary-green);
 }
 
@@ -674,7 +684,7 @@
 
 .hcuc {
   flex: 0 0 22%;
-  height: 70px;
+  /* height: 90px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -682,12 +692,17 @@
 }
 
 .hcuc img {
-  width: auto;
+  width: 85%;
   height: 100%;
+  object-fit: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: all 0.3s ease;
+}
+
+.hcuc:nth-child(1) img {
+  width: 55%;
 }
 
 .hcuc img:hover {
@@ -1664,20 +1679,22 @@
   height: auto;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: flex-end;
   row-gap: var(--mb-2);
-  /* border: 2px orange solid; */
+  /* border: 1px orange solid; */
 }
 
 .pwc-header {
-  flex: 0 0 35%;
+  flex: 0 0 40%;
   height: auto;
   /* border: 1px dodgerblue solid; */
   padding: 0;
   /* padding-bottom: var(--mb-1); */
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  row-gap: var(--mb-2);
 }
 
 .pwc-header h3 {
@@ -1689,17 +1706,25 @@
   line-height: 38px;
 }
 
+.pwc-header img {
+  width: 95%;
+  height: 200px;
+  object-fit: cover;
+  /* border: 1px tan solid; */
+}
+
 .pwc-content {
   flex: 0 0 55%;
-  height: auto;
+  height: 100%;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
   row-gap: var(--mb-1);
-  padding-left: var(--mb-2);
-  border-left: 2px var(--primary-green) dotted;
+  /* padding-left: var(--mb-2); */
+  /* border-left: 2px var(--primary-green) dotted; */
+  /* border: 1px yellow solid; */
 }
 
 .pwc-content p {
@@ -3070,7 +3095,7 @@
   .pp-carousel {
     flex: 0 0 auto;
     width: 100%;
-    height: 350px;
+    height: 300px;
     /* border: 1px orange solid; */
     border-top-right-radius: unset;
     border-bottom-right-radius: 15px;
@@ -3178,16 +3203,19 @@
   .pwc-header {
     flex: 0 0 auto;
     width: 100%;
-    /* padding-bottom: var(--mb-1); */
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
+    row-gap: var(--mb-1-5);
   }
 
   .pwc-header h3 {
     width: 100%;
     font-size: 1.25rem;
-    line-height: 28px;
+    line-height: 1.4;
+  }
+
+  .pwc-header img {
+    width: 100%;
+    height: 150px;
   }
 
   .pwc-content {
@@ -3195,8 +3223,6 @@
     width: 100%;
     height: auto;
     padding: 0;
-    padding-left: var(--mb-1);
-    border-left: 2px var(--primary-green) dotted;
   }
 
   .pwc-content p {
