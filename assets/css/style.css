@@ -1507,7 +1507,7 @@
 .pp-carousel {
   position: relative;
   flex: 0 0 55%;
-  height: 400px;
+  height: 350px;
   display: flex;
   justify-content: center;
   align-items: center;
