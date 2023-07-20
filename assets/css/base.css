@@ -242,7 +242,7 @@ nav {
 }
 
 .nav-logo img {
-  width: 130px;
+  width: 110px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -788,5 +788,17 @@ footer {
 
   .f-mini__data p {
     margin-right: var(--mb-2);
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  footer {
+    padding: var(--mb-4) 0 0 0;
+  }
+
+  .footer-container {
+    padding: 0 12rem;
+    /* border: 1px fuchsia solid; */
+    padding-bottom: var(--mb-4);
   }
 }
